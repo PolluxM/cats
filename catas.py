@@ -40,8 +40,8 @@ window.title("Cats!")
 window.geometry("600x520")
 
 # Поле ввода для тегов
-tag_entry = Entry()
-tag_entry.pack()
+# tag_entry = Entry()
+# tag_entry.pack()
 
 
 
@@ -60,8 +60,8 @@ file_menu.add_command(label="Выход", command=exit)
 
 url = "https://cataas.com/cat"
 
-# tag_label = Label(text="Выбери тег")
-# tag_label.pack()
+tag_label = Label(text="Выбери тег")
+tag_label.pack()
 
 load_button = Button(text="Загрузить по тегу", command=open_new_window)
 load_button.pack()
